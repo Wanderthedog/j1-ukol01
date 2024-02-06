@@ -76,15 +76,6 @@ public class HlavniProgram {
         zofka.penDown();
     }
 
-   /* public void nakresliHvezdicku() {
-        int delkaStrany = 50; // Délka strany hvezdičky
-
-        for (int i = 0; i < 5; i++) {
-            zofka.move(delkaStrany);
-            zofka.turnLeft(144);
-        }
-    }*/
-
     public void nakresliDomecek() {
         // První část domku - obdelnik
         zofka.turnLeft(90);
@@ -107,14 +98,6 @@ public class HlavniProgram {
         zofka.turnLeft(90);
         zofka.penDown();
     }
-
-   /* public void nakreslioOsmiuhelnik() {
-        int strana = 50; // jedna strana osmiuhelniku
-        for (int i = 0; i < 8; i++) {
-            zofka.move(strana);
-            zofka.turnLeft(45); // 360/ 8  = 45
-        }
-    } */
 
     public void nakresliPrasatko() {
 
@@ -255,13 +238,3 @@ public class HlavniProgram {
         zofka.penDown();
     }
 }
-
-
-
-
-
-
-
-
-
-
