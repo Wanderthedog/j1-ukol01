@@ -29,7 +29,6 @@ public class HlavniProgram {
         pismenoN();
         pismenoA();
     }
-
     public void nakresliSlunicko() {
         zofka.penUp();
         zofka.turnLeft(35);
@@ -46,7 +45,6 @@ public class HlavniProgram {
         zofka.move(30);
         zofka.turnRight(180);
         zofka.move(30);
-
         zofka.penUp(); //zofka se presune doprostred a pokracuje
         zofka.move(50);
         zofka.turnRight(90);
@@ -57,7 +55,6 @@ public class HlavniProgram {
         zofka.move(30);
 
         int paprskyDva = 7; // zmatena zofka dela dalsi paprsky
-
         for (int i = 0; i < paprskyDva; i++) {
             zofka.penUp();
             zofka.move(50);
@@ -68,14 +65,12 @@ public class HlavniProgram {
             zofka.turnRight(180);
             zofka.move(30);
         }
-
         zofka.turnLeft(35);//zofka jde nekam, kde muze malovat domecky
         zofka.penUp();
         zofka.move(325);
         zofka.turnRight(115);
         zofka.penDown();
     }
-
     public void nakresliDomecek() {
         // První část domku - obdelnik
         zofka.turnLeft(90);
@@ -98,7 +93,6 @@ public class HlavniProgram {
         zofka.turnLeft(90);
         zofka.penDown();
     }
-
     public void nakresliPrasatko() {
 
         // První část prasátko tělo
@@ -140,7 +134,6 @@ public class HlavniProgram {
         //Vrátíme zofku do výchozí pozice, sorry prasatko, ocasek priste
         zofka.turnLeft(45);
     }
-
     public void vratSeNaPuvodniPozici() {
         zofka.penUp();
         zofka.turnRight(180);
@@ -150,7 +143,6 @@ public class HlavniProgram {
         zofka.turnRight(90);
         zofka.penDown();
     }
-
     public void malovaniDomecku2() {
         zofka.penUp();
         zofka.turnLeft(90);
@@ -201,7 +193,6 @@ public class HlavniProgram {
     }
 
     public void pismenoA() {
-
         zofka.turnRight(20);
         zofka.move(105);
         zofka.turnRight(140);
@@ -222,7 +213,6 @@ public class HlavniProgram {
         zofka.turnLeft(90);
         zofka.penDown();
     }
-
     public void pismenoN() {
         zofka.move(105);
         zofka.turnRight(145);
